@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+    font-family:   'Gulzar', serif;
+}
+body{
+    background-color: #dbc0d6;
+}
+h1{
+    color: #2b7d80;
+
+}
+h2{
+    text-align: center;   
+}
+h3{
+   background-color: #dbc0d6 ;
+}
+.textoInicio{
+  
+  background-image: url(../trab-Bootstrap/fotitos/Diseñosintítulo\(1\).png);
+  
+}
+.logo{
+    width: 150px;
+}
+
+div img {
+    width: 50%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../trab-Bootstrap/fotitos/Diseñosintítulo\(11\).png);
+    
+
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+       
+}
+ul li {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    gap: 10px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(35, 70, 133);
+ 
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #669dca;
+    
+}
+footer {
+    background-color:  #dbc0d6;
+   
+}
+.footerInicio{
+    
+    text-align: center;
+}
+.fotosInicioCambio{
+    transition: height 0.5s, width 0.10s;
+}
+.fotosInicioCambio:hover {
+    height: 300px;
+    width: 300px
+}
+.fotosProduCambio{
+    transition:height 0.5s, width 0.10s;
+}
+.fotosProduCambio:hover{
+    height: 300px;
+    width: 300px;
+}
+.botonCambio{
+    color: #fff6f9;
+    background-color: #2b7d80;
+
+}
